@@ -12,8 +12,8 @@ cursor: pointer;
 }
 
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
-    color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
     background-color: #FFFFFF;
 }
 
@@ -23,24 +23,24 @@ body {
 /*=================HEADER==================*/
 
 .logotype {
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2E2F42;
-}
-    
-    
-.span-web {
-        font-family: Raleway;
+    font-family: Raleway;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.16;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
+}
+    
+    
+.span-studio {
+    font-family: 'Raleway', sans-serif;
+     font-size: 18px;
+     font-weight: 700;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: #2E2F42;
 }
 
 .menu-link {
@@ -55,10 +55,11 @@ body {
 .menu-link:hover {
     color: #404BBF;
 }
+.header-address {
+    font-style: normal
+}
 
-
-.header-mail-link,
-.header-tel-link {
+.address-list-item-link {
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -66,14 +67,19 @@ body {
         letter-spacing: 0.02em;
         color: #434455;
 }
-.header-mail-link:active,
-.header-mail-link:hover {
+.address-list-item-link:active,
+.address-list-item-link:hover,
+.address-list-item-link:focus {
     color: #404BBF;
 }
 
 /*=================HEADER==================*/
 
 /*===============HERO SECTION==============*/
+
+.hero {
+background-color: #2e2f42;
+} 
 .main-title {
         text-align: center;
         font-size: 56px;
@@ -81,16 +87,21 @@ body {
         line-height: 1.07;
         letter-spacing: 0.02em;
         color: #FFFFFF;
-        background: #2E2F42;
 }
 
 .order-serv-btn {
-    color: #4D5AE5;  
+        font-family: Roboto;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        background-color: #4D5AE5;
 }
 
 .order-serv-btn:active,
-.order-serv-btn:hover {
-    color: #404BBF;
+.order-serv-btn:hover,
+.order-serv-btn:focus {
+    background-color: #404BBF
 }
 
 .hidden-title {
@@ -114,6 +125,14 @@ body {
 /*===============HERO SECTION==============*/
 
 /*===================TEAM==================*/
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-list-item {
+    background-color: #FFFFFF;
+}
 .main-team-title {
     text-align: center;
     font-size: 36px;
@@ -172,15 +191,21 @@ body {
 /*==============OUR PORTFOLIO==============*/
 
 /*=================FOOTER==================*/
+.page-footer {
+    background-color:#2E2F42;
+}
 .logotype-footer {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
-    background: #2E2F42;
+    color: #4d5ae5;
+}
+
+.footer-span-studio {
+    color: #f4f4fd;
 }
 .page-footer-text {
         font-size: 16px;
@@ -188,6 +213,5 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
-        background: #2E2F42;
 }
 /*=================FOOTER==================*/
