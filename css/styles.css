@@ -25,7 +25,6 @@ body {
 .logotype {
     font-family: 'Raleway', sans-serif;
         font-size: 18px;
-        font-weight: 700;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
@@ -36,7 +35,6 @@ body {
 .span-studio {
     font-family: 'Raleway', sans-serif;
      font-size: 18px;
-     font-weight: 700;
      line-height: 1.17;
      letter-spacing: 0.03em;
      text-transform: uppercase;
@@ -62,8 +60,6 @@ body {
 
 .address-list-item-link {
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
@@ -117,7 +113,6 @@ background-color: #2e2f42;
 }
 .benefits-list-text {
         font-size: 16px;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
@@ -137,7 +132,6 @@ background-color: #2e2f42;
 .main-team-title {
     text-align: center;
     font-size: 36px;
-    font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -155,7 +149,6 @@ background-color: #2e2f42;
 .team-list-text {
     text-align: center;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -167,7 +160,6 @@ background-color: #2e2f42;
 .main-portfolio-title {
     text-align: center;
     font-size: 36px;
-    font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -184,7 +176,6 @@ background-color: #2e2f42;
 .portfolio-list-text {
     text-align: center;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -198,7 +189,6 @@ background-color: #2e2f42;
 .logotype-footer {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -210,7 +200,6 @@ background-color: #2e2f42;
 }
 .page-footer-text {
         font-size: 16px;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
